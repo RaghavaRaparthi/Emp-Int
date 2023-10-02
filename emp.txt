@@ -1,0 +1,137 @@
+<html>
+<head>
+    <title>Employee Profile</title>
+</head>
+ <style>
+        body {
+            background-color: #f2f2f2; /* Use your preferred color code or name */
+        }
+    </style>
+<body>
+    <h1>Employee Profile</h1>
+    <form>
+        <label for="employeeId">Employee ID:</label>
+        <input type="text" id="employeeId" name="employeeId"><br><br>
+
+        <label for="employeeName">Name of the Employee:</label>
+        <input type="text" id="employeeName" name="employeeName"><br><br>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="jobTitle">Job Title:</label>
+        <input type="text" id="jobTitle" name="jobTitle"><br><br>
+
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department"><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber"><br><br>
+
+        <label for="dateOfJoining">Date of Joining:</label>
+        <input type="date" id="dateOfJoining" name="dateOfJoining"><br><br>
+
+        <label for="reportingManager">Reporting Manager:</label>
+        <input type="text" id="reportingManager" name="reportingManager"><br><br>
+
+        <label for="workLocation">Work Location:</label>
+        <input type="text" id="workLocation" name="workLocation"><br><br>
+
+        <label for="skillsAndExpertise">Skills and Expertise:</label>
+        <textarea id="skillsAndExpertise" name="skillsAndExpertise"></textarea><br><br>
+
+        <label for="education">Education:</label>
+        <textarea id="education" name="education"></textarea><br><br>
+
+        <label for="certifications">Certifications:</label>
+        <textarea id="certifications" name="certifications"></textarea><br><br>
+
+        <label for="languagesSpoken">Languages Spoken:</label>
+        <input type="text" id="languagesSpoken" name="languagesSpoken"><br><br>
+
+        <label for="totalWorkExperience">Total Work Experience:</label>
+        <input type="text" id="totalWorkExperience" name="totalWorkExperience"><br><br>
+
+        <label for="projectAssignments">Project Assignments:</label>
+        <textarea id="projectAssignments" name="projectAssignments"></textarea><br><br>
+
+        <label for="emergencyContact">Emergency Contact:</label>
+        <input type="text" id="emergencyContact" name="emergencyContact"><br><br>
+
+        <input type="submit" value="Submit">
+        
+    </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Personal Information</title>
+</head>
+<body>
+    <h1>Employee Personal Information</h1>
+    <form>
+        <label for="employeeId">Employee ID:</label>
+        <input type="text" id="employeeId" name="employeeId"><br><br>
+
+        <label for="employeeName">Employee Full Name:</label>
+        <input type="text" id="employeeName" name="employeeName"><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="bloodGroup">Blood Group:</label>
+        <input type="text" id="bloodGroup" name="bloodGroup"><br><br>
+
+       <label for="Status">Status:</label>
+        <select id="Status" name="Status">
+            <option value="Select">Select</option>
+            <option value="married">married</option>
+            <option value="Unmarried">Unmarried</option>
+            
+        </select><br><br>  
+
+     <label for="Dependent">Dependent:</label>
+        <select id="Dependent" name="Dependent">
+            <option value="Select">Select</option>
+            <option value="Spouse">Spouse</option>
+            <option value="Mother">Mother</option>
+            <option value="Father">Father</option>
+            <option value="Child">Child</option>
+        </select><br><br>       
+        <label for="dependent Name">dependentName:</label>
+        <input type="text" id="dependent Name" name="dependent Name"><br><br>
+
+        
+
+        <label for="emergencyContact">Emergency Contact Number:</label>
+        <input type="tel" id="emergencyContact" name="emergencyContact"><br><br>
+
+        <label for="currentAddress">Current Address:</label>
+        <textarea id="currentAddress" name="currentAddress"></textarea><br><br>
+
+        <label for="permanentAddress">Permanent Address:</label>
+        <textarea id="permanentAddress" name="permanentAddress"></textarea><br><br>
+
+        <label for="personalEmail">Personal Email:</label>
+        <input type="email" id="personalEmail" name="personalEmail"><br><br>
+
+        <label for="personalPhoneNumber">Personal Phone Number:</label>
+        <input type="tel" id="personalPhoneNumber" name="personalPhoneNumber"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
